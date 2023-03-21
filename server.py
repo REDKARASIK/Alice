@@ -36,7 +36,9 @@ def handle_dialog(req, res):
         'ладно',
         'куплю',
         'покупаю',
-        'хорошо'
+        'хорошо',
+        'я куплю',
+        'я покупаю'
     ]:
         res['response']['text'] = 'Слона можно найти на Яндекс.Маркете!'
         res['response']['end_session'] = True
